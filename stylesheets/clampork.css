@@ -1,0 +1,417 @@
+/* Parent */
+
+body {
+	background: #000;
+	color: #8e8e93;
+	font-family: 'Raleway', sans-serif;
+}
+	body a {
+		outline: 0 !important;
+	}
+
+a {
+    text-decoration: none; 
+    color: #e5e5e5; 
+}
+
+.parallax-window {
+    min-height: 100vh;
+    max-height: 100vh;
+    background: transparent;
+}
+
+
+/* Landing */
+
+.spacer {
+	padding-bottom: 5em;
+}
+
+#top-bar-name {
+	margin-left: 20%;
+}
+	#top-bar-name p {
+		color: #e5e5e5;
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.5em;	
+		font-weight: 700 !important;
+		letter-spacing: 0.25em;
+	}
+
+#top-bar-buttons {
+	margin-right: 15%;
+}
+
+#hamburger-wrapper {
+	display: none;
+}
+
+
+/* Typed */
+
+#typed {
+	color: #e5e5e5;
+	margin-top: 15%;
+}
+
+.typed {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 4em;
+	height: auto;
+}
+
+.typed-cursor {
+	display: inline-block;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 4em;
+    opacity: 1;
+    -webkit-animation: blink 0.5s infinite;
+    -moz-animation: blink 0.5s infinite;
+    animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes blink {
+    0% { opacity:1;}
+    50% { opacity:0;}
+    100% { opacity:1;}
+}
+
+@-moz-keyframes blink {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+/* Buttons */
+
+#contact-button-mobile {
+	display: none;
+}
+
+#button-contact, #button-resume {
+	border-color: #e5e5e5;
+	border-style: solid;
+	border-width: 0.1em;
+	color: #e5e5e5;
+	float: right;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.75em;	
+	font-weight: 700 !important;
+	letter-spacing: 0.15em;
+	margin-left: 1.5em;
+	padding: 0.75em;
+}
+	#button-contact:hover, #button-resume:hover {
+		background: #e5e5e5;
+		border-color: #e5e5e5;
+		color: #1a1a1a;
+		-moz-transition: all 0.75s;
+		-o-transition: all 0.75s;
+		-webkit-transition: all 0.75s;
+		transition: all 0.75s;
+	}
+
+#button-greyscale-stories, #button-fixtoire, #button-porkicons {
+	border-color: #e5e5e5;
+	border-style: solid;
+	border-width: 0.1em;
+	color: #e5e5e5;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;	
+	font-weight: 700 !important;
+	letter-spacing: 0.15em;
+	opacity: 0;
+	padding: 0.75em;
+	position: relative;
+}
+	#button-greyscale-stories:hover, #button-fixtoire:hover, #button-porkicons:hover {
+		background: #e5e5e5;
+		border-color: #e5e5e5;
+		color: #1a1a1a;
+		-moz-transition: all 0.5s !important;
+		-o-transition: all 0.5s !important;
+		-webkit-transition: all 0.5s !important;
+		transition: all 0.5s !important;
+	}
+
+#scroll-down img {
+	bottom: 1em;
+	height: 2.5em;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+	#scroll-down img:hover {
+		filter: alpha(opacity=60);
+		opacity: 0.6;
+		transform: translate(-50%, -40%);
+		-webkit-transform: translate(-50%, -40%);
+		-moz-transition: all 0.5s !important;
+		-o-transition: all 0.5s !important;
+		-webkit-transition: all 0.5s !important;
+		transition: all 0.5s !important;		
+	}
+
+#scroll-down-mobile {
+	display: none;
+}
+
+
+/* Portfolio */
+
+#portfolio {
+	background: #e5e5e5;
+	height: 80%;
+}
+
+#greyscale-stories, #fixtoire, #porkicons {
+	background: #e5e5e5;
+	height: 75%;
+}
+
+#greyscale-stories-block {
+	background: url('../images/clampork/bg_fiction.jpg') center;
+	float: right;
+}
+
+#fixtoire-block {
+	background: url('../images/clampork/bg_fixtoire.jpg') center;
+}
+
+#porkicons-block {
+	background: url('../images/clampork/bg_design.jpg') center;
+	float: left;
+}
+
+#greyscale-stories-block, #fixtoire-block, #porkicons-block {
+	background-size: cover;
+	height: 100%;
+	margin: 15% auto;
+	text-decoration: none;
+	width: 90%;
+}
+
+	#greyscale-stories-block:hover .greyscale-stories-overlay, #fixtoire-block:hover .fixtoire-overlay, #porkicons-block:hover .porkicons-overlay {
+	    background-color: #000;
+	    height: 100%;
+	    opacity: 0.9;
+	    -moz-transition: all 0.25s;
+		-o-transition: all 0.25s;
+		-webkit-transition: all 0.25s;
+		transition: all 0.25s;
+	}
+	#greyscale-stories-block:hover .greyscale-stories-overlay {
+	    float: right;
+	}
+	#porkicons-block:hover .porkicons-overlay {
+	    float: left;
+	}
+	#greyscale-stories-text p, #fixtoire-text p, #porkicons-text p {
+		color: #a1a1a1;
+		font-family: 'Roboto Slab', sans-serif;
+		font-size: 1.2em;
+		font-weight: 100;
+		letter-spacing: 0;
+	}
+	#greyscale-stories-text p {
+		padding: 1.5em 15% 0;
+	}
+	#fixtoire-text p {
+		padding: 1.5em 15% 0;
+	}
+	#porkicons-text p {
+		padding: 1.5em 15% 0;
+	}
+
+	#greyscale-stories-text h1, #porkicons-text h1 {
+		color: #1a1a1a;
+		font-family: 'Raleway', sans-serif;
+		font-size: 2.5em;	
+		font-weight: 700 !important;
+		letter-spacing: 0.25em;
+		padding-top: 1.75em;
+	}
+	#fixtoire-text h1 {
+		color: #e5e5e5;
+		font-family: 'Raleway', sans-serif;
+		font-size: 2.5em;	
+		font-weight: 700 !important;
+		letter-spacing: 0.25em;
+		padding-top: 1.75em;
+	}
+	#greyscale-stories-text p, #fixtoire-text p, #porkicons-text p {
+		opacity: 0;
+	}
+	#greyscale-stories-block:hover a, #fixtoire-block:hover a, #porkicons-block:hover a {
+		opacity: 1;
+	}
+	#greyscale-stories-block:hover #greyscale-stories-text h1, #fixtoire-block:hover #fixtoire-text h1, #porkicons-block:hover #porkicons-text h1 {
+		display: none;
+		-moz-transition: all 0.25s;
+		-o-transition: all 0.25s;
+		-webkit-transition: all 0.25s;
+		transition: all 0.25s;
+	}
+	#greyscale-stories-block:hover #greyscale-stories-text p, #fixtoire-block:hover #fixtoire-text p, #porkicons-block:hover #porkicons-text p {
+		opacity: 1;
+		transform: translate(0, 4.5em);
+		-webkit-transform: translate(0, 4.5em);	
+		-moz-transition: opacity 0s, transform 0.25s;
+		-o-transition: opacity 0s, transform 0.25s;
+		-webkit-transition: opacity 0s, transform 0.25s;
+		transition: opacity 0s, transform 0.25s;
+	}
+	#greyscale-stories-block:hover #button-greyscale-stories, #fixtoire-block:hover #button-fixtoire, #porkicons-block:hover #button-porkicons {
+		opacity: 1;
+		transform: translate(0, 7em);
+		-webkit-transform: translate(0, 7em);
+		-moz-transition: opacity 0s, transform 0.25s;
+		-o-transition: opacity 0s, transform 0.25s;
+		-webkit-transition: opacity 0s, transform 0.25s;
+		transition: opacity 0s, transform 0.25s;
+	}
+
+
+/* Footer */
+
+#footer {
+	background: #1a1a1a;
+}
+
+
+/* Icons */
+
+#social {
+	padding: 3% 0;
+}
+	#social img {
+		padding: 0 1.5em;
+		height: 2em;
+	}
+	#social img:hover {
+		filter: alpha(opacity=60);
+		opacity: 0.6;
+	}
+
+
+/* Media queries */
+
+/* Small */
+@media only screen { }
+
+/* MacBook (Retina) */
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and ( min--moz-device-pixel-ratio: 1.5),  
+only screen and ( -o-min-device-pixel-ratio: 3/2),  
+only screen and ( min-device-pixel-ratio: 1.5),  
+only screen and ( min-resolution: 192dpi),  
+only screen and ( min-resolution: 2dppx) { 
+
+	/* Text */
+
+	#greyscale-stories-text p, #fixtoire-text p, #porkicons-text p {
+		font-size: 1.15em;
+	}
+
+	/* Hover */
+
+	#greyscale-stories-block:hover #greyscale-stories-text p, #fixtoire-block:hover #fixtoire-text p, #porkicons-block:hover #porkicons-text p {
+		transform: translate(0, 0.75em);
+		-webkit-transform: translate(0, 0.75em);		
+	}
+	#greyscale-stories-block:hover #button-greyscale-stories, #fixtoire-block:hover #button-fixtoire, #porkicons-block:hover #button-porkicons {
+		transform: translate(0, 1.25em) !important;
+		-webkit-transform: translate(0, 1.25em) !important;	
+	}
+
+}
+
+/* iPhone 6 portrait */
+@media only screen and (max-width: 667px) and (orientation: portrait) { 
+
+	/* Top bar */	
+
+	.spacer {
+		padding-bottom: 3em;
+	}
+
+	#top-bar-name {
+		font-size: 0.75em;
+		padding-left: 10%;
+		margin: 0;
+	}
+
+	#hamburger-wrapper {
+		display: block;
+	}
+
+	.drawer-greyscale-stories, .drawer-fixtoire, .drawer-porkicons {
+		text-align: right;
+		color: #d3d3d3;
+	    float: right;
+		font-family: 'Raleway', sans-serif;
+		font-size: 0.75em;	
+		font-weight: 700 !important;
+		padding: 0.75em 15% 0.75em 0.75em;
+		letter-spacing: 0.15em;
+		width: 100%;
+	}
+
+	.drawer-greyscale-stories {
+		margin-top: 30%;
+	}
+
+	#contact-button-mobile {
+		display: block;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+	#button-contact-mobile {
+		border-color: #e5e5e5;
+		border-style: solid;
+		border-width: 0.1em;
+		color: #e5e5e5;
+		font-family: 'Raleway', sans-serif;
+		font-size: 0.75em;	
+		font-weight: 700 !important;
+		letter-spacing: 0.15em;
+		padding: 0.75em;
+		margin: 0 auto;
+	}
+
+	#button-resume, #button-contact {
+		display: none;
+	}
+
+	#typed {
+		margin-top: 50%;
+	}
+
+	.typed, .typed-cursor {
+		font-size: 3em;
+	}
+
+	/* Portfolio */
+
+	#portfolio, #greyscale-stories, #fixtoire, #porkicons, #scroll-down {
+		display: none;
+	}
+
+	/* Footer */
+
+	#footer {
+		display: none;
+	}
+
+}
