@@ -245,7 +245,9 @@
 	};
 
 	ElastiStack.prototype._initDragg = function() {
-		this.draggie = new Draggabilly( this.items[ this.current ] );
+		this.draggie = new Draggabilly( this.items[ this.current ], {
+			handle: '.handle'
+		});
 	};
 
 	ElastiStack.prototype._disableDragg = function() {

@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Martel:200,300,400,600);
 
+/* Wrapper */
 body {
 	font-family: 'Martel', serif;
 	color: #666666;
@@ -7,7 +8,15 @@ body {
 	overflow-y: scroll;
 	font-weight: 300;
 }
+.wrapper {
+	background-color: #d4d4d4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
 
+/* Typed */
 .typed {
 	display: inline;
 	color: #666666;
@@ -34,57 +43,36 @@ body {
     100% { opacity:1; }
 }
 
-.wrapper {
-	background-color: #d4d4d4;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-}
-
+/* Cards */
 .copy {
 	font-size: 1.5em;
 	line-height: 1.3em;
-	height: 12em;
+	height: 100%;
 	padding: 2em;
 }
-
-.button > * {
-	position: relative;
+.button {
+	position: fixed;
+	bottom: 0;
+	background-color: pink;
 }
-
-.button .handle {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	left: 0;
-	top: 0;
-}
-
 .button img {
 	height: 3em;
 }
-
-.elasticstack .intro {
-	background-color: #f1f1f1;
-}
-
-.elasticstack .fiction {
-	color: #d4d4d4;
-	background-color: #3c3c3c;
-}
-
-.elasticstack .porkicons {
-	color: #d4d4d4;
-	background-color: #cb1239;
-}
-
-.elasticstack .social {
-	color: #d4d4d4;
-	background-color: #0c856c;
-}
-
 .title {
 	color: #fff;
 }
-
+.elasticstack .intro {
+	background-color: #f1f1f1;
+}
+.elasticstack .fiction {
+	background-color: #3c3c3c;
+}
+.elasticstack .porkicons {
+	background-color: #cb1239;
+}
+.elasticstack .social {
+	background-color: #0c856c;
+}
+.elasticstack .dark {
+	color: #d4d4d4;
+}
