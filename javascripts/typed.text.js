@@ -1,7 +1,7 @@
 $(function(){
 	$(".typed").typed({
 		strings: [
-			"I work as a data scientist at Envoy.", 
+			"I work at Envoy as a data scientist.", 
 			"On good days, I write miniaturist short fiction.",
 			"I'm still not sold on San Francisco.",
 			"These days, I play a lot less poker than I'd like.", 
