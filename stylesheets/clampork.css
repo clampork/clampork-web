@@ -12,62 +12,6 @@ body {
 	display: inline;
 	color: #666666;
 }
-
-.wrapper {
-	background-color: #d4d4d4;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-}
-
-.intro, 
-.fiction, 
-.porkicons, 
-.social {
-	font-size: 1.5em;
-}
-
-.intro-text, 
-.fiction-text,
-.porkicons-text {
-	height: 10em;
-
-}
-
-.intro-button img, 
-.fiction-button img,
-.porkicons-button img {
-	height: 2em;
-}
-
-.elasticstack .intro {
-	background-color: #f1f1f1;
-	line-height: 1.3em;
-}
-
-.elasticstack .fiction {
-	color: #d4d4d4;
-	background-color: #3c3c3c;
-	line-height: 1.3em;
-}
-
-.elasticstack .porkicons {
-	color: #d4d4d4;
-	background-color: #cb1239;
-	line-height: 1.3em;
-}
-
-.elasticstack .social {
-	color: #d4d4d4;
-	background-color: #0c856c;
-	line-height: 1.3em;
-}
-
-.title {
-	color: #fff;
-}
-
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -89,3 +33,58 @@ body {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+.wrapper {
+	background-color: #d4d4d4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.copy {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	height: 12em;
+	padding: 2em;
+}
+
+.button > * {
+	position: relative;
+}
+
+.button .handle {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.button img {
+	height: 3em;
+}
+
+.elasticstack .intro {
+	background-color: #f1f1f1;
+}
+
+.elasticstack .fiction {
+	color: #d4d4d4;
+	background-color: #3c3c3c;
+}
+
+.elasticstack .porkicons {
+	color: #d4d4d4;
+	background-color: #cb1239;
+}
+
+.elasticstack .social {
+	color: #d4d4d4;
+	background-color: #0c856c;
+}
+
+.title {
+	color: #fff;
+}
+
