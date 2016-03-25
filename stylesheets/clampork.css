@@ -117,7 +117,7 @@ body {
 @media (max-width: 736px) and (-webkit-min-device-pixel-ratio: 2) { 
 	.wrapper {
 		align-items: left;
-		padding-top: 5em;
+		padding-top: 3em;
 	}
   	.elasticstack {
   		width: 250px !important;
