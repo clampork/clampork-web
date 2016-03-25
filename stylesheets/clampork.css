@@ -52,11 +52,13 @@ body {
 }
 .button {
 	position: absolute;
-	display: inline-block;
 	bottom: 2em;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 	width: 3em;
 	height: 3em;
-	background-color: pink;
 }
 .button img {
 	height: 3em;
@@ -78,4 +80,29 @@ body {
 }
 .elasticstack .dark {
 	color: #d4d4d4;
+}
+
+/* Media queries */
+@media (max-width: 736px) and (-webkit-min-device-pixel-ratio: 2) { 
+
+  	.elasticstack {
+  		width: 220px !important;
+  		height: 250px !important;
+  	}
+  	.elasticstack li {
+  		width: 220px !important;
+  		height: 250px !important;
+  	}
+ 	.copy {
+  		font-size: 1em;
+  	}
+  	.button {
+  		bottom: 1.5em;
+  		width: 2em;
+  		height: 2em;
+  	}
+  	.button img {
+  		height: 2em;
+  	}
+
 }

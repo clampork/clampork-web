@@ -1,10 +1,10 @@
 $(function(){
 	$(".typed").typed({
 		strings: [
-			"I work at Envoy as a data scientist.", 
+			"I do a bunch of data science work at Envoy.", 
 			"On good days, I write miniaturist short fiction.",
-			"I'm still not sold on San Francisco.",
-			"These days, I play a lot less poker than I'd like.", 
+			"When it comes to food, I'm a committed hedonist.",
+			"These days, I play way less poker than I'd like.", 
 			"It's fairly obvious that my spirit animal is clam."
 		],
 		typeSpeed: 20,
