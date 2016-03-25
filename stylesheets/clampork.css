@@ -86,15 +86,15 @@ body {
 @media (max-width: 736px) and (-webkit-min-device-pixel-ratio: 2) { 
 
   	.elasticstack {
-  		width: 220px !important;
+  		width: 300px !important;
   		height: 250px !important;
   	}
   	.elasticstack li {
-  		width: 220px !important;
+  		width: 300px !important;
   		height: 250px !important;
   	}
  	.copy {
-  		font-size: 1em;
+  		font-size: 1.2em;
   	}
   	.button {
   		bottom: 1.5em;
