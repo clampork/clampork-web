@@ -1,11 +1,11 @@
 $(function(){
 	$(".typed").typed({
 		strings: [
-			"I do a bunch of data science work over at Envoy.", 
-			"On good days, I write miniaturist short fiction.",
-			"My death row meal would be an Umami burger. And a Coke.",
-			"Nowadays, I play way less poker than I'd like.", 
-			"I believe my spirit animal to be clam.",
+			"I do data science stuff over at Envoy.", 
+			"Every once in a while, I write short fiction.",
+			"6-7 suited is my favorite hand in poker.",
+			"My death row meal would consist of an Umami burger and Mexican Coke.",
+			"If I had a spirit animal, it would be a clam."
 		],
 		typeSpeed: 20,
 		backSpeed: 1,
